@@ -12,6 +12,7 @@ This repository contains a research-grade implementation of a **Hybrid CNN + Tra
 THEGOAT.ipynb        # Main Jupyter Notebook
 data/                # Folder for dataset
 results/             # Folder for output csv
+app.py               # WebApp to test
 ```
 
 ---
@@ -21,7 +22,7 @@ results/             # Folder for output csv
 * 📊 Classification of multiple leaf diseases
 * 📈 Visualization of training curves and attention maps
 * ✅ Validation accuracy monitoring with best model checkpointing
-
+* ✨ WebApp using Gradio to test images
 ---
 
 ## 🚀 Getting Started
@@ -88,6 +89,12 @@ Open `THEGOAT.ipynb` and run cells sequentially to:
 * Evaluate and visualize results
 
 Tweak the parameters to your liking.
+
+---
+
+## 🕸️ App
+
+Once youre done training, you can run the app.py script to get a webapp on localhost:7860
 
 ---
 
