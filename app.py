@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import timm
-from PIL import Image
 from torchvision import transforms
 import gradio as gr
 

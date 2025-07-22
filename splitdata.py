@@ -1,4 +1,3 @@
-import os
 import shutil
 import random
 from pathlib import Path
@@ -29,7 +28,6 @@ def split_dataset(
         n = len(images)
         n_train = int(n * train_ratio)
         n_val = int(n * val_ratio)
-        n_test = n - n_train - n_val
 
         splits = {
             "train": images[:n_train],
