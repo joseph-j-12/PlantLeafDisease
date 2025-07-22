@@ -1,0 +1,13 @@
+{"time":"2025-07-23T01:24:33.1093448+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T01:24:35.1878406+05:30","level":"INFO","msg":"stream: created new stream","id":"eurd2nge"}
+{"time":"2025-07-23T01:24:35.1878406+05:30","level":"INFO","msg":"stream: started","id":"eurd2nge"}
+{"time":"2025-07-23T01:24:35.1878406+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"eurd2nge"}
+{"time":"2025-07-23T01:24:35.1878406+05:30","level":"INFO","msg":"sender: started","stream_id":"eurd2nge"}
+{"time":"2025-07-23T01:24:35.1878406+05:30","level":"INFO","msg":"handler: started","stream_id":"eurd2nge"}
+{"time":"2025-07-23T01:28:52.8474511+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-eurd2nge-tablesclassification_metrics-7a0c82aae93c76b20f0b4e26a1073a4b","runtime_seconds":2.1071179,"subtasks":[{"desc":"tables/classification_metrics.table.json","runtime_seconds":0.6767037,"progress":"1.1KB/1.1KB"}]},{"desc":"uploading media\\images\\charts\\confusion_matrix_8_396d68f60dea3e8213cf.png","runtime_seconds":1.4958093,"progress":"36.3KB/36.3KB"},{"desc":"uploading media\\images\\charts\\roc_curve_9_8fe6e4e6eb1e502f6321.png","runtime_seconds":1.0353511,"progress":"36.1KB/36.1KB"},{"desc":"uploading media\\images\\charts\\t-sne_visualization_10_d3d4dca102e6f65de08a.png","runtime_seconds":0.7170325,"progress":"76.7KB/76.7KB"},{"desc":"uploading output.log","runtime_seconds":0.651103},{"desc":"uploading wandb-summary.json","runtime_seconds":0.651103,"progress":"642.9KB/642.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.231941,"progress":"2.4KB/2.4KB"}],"total_operations":7}}
+{"time":"2025-07-23T01:28:55.7042129+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T01:29:01.1182266+05:30","level":"INFO","msg":"stream: closing","id":"eurd2nge"}
+{"time":"2025-07-23T01:29:01.1182266+05:30","level":"INFO","msg":"handler: closed","stream_id":"eurd2nge"}
+{"time":"2025-07-23T01:29:01.1182266+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"eurd2nge"}
+{"time":"2025-07-23T01:29:01.1182266+05:30","level":"INFO","msg":"sender: closed","stream_id":"eurd2nge"}
+{"time":"2025-07-23T01:29:01.1182266+05:30","level":"INFO","msg":"stream: closed","id":"eurd2nge"}

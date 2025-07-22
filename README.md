@@ -1,0 +1,1 @@
+To get this running, create a venv, install everything from the requirements.txt, and run the app.py file to get a gradio web app running on localhost. Then to train, run everything 

@@ -1,0 +1,13 @@
+{"time":"2025-07-23T01:05:32.5142957+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T01:05:33.6010385+05:30","level":"INFO","msg":"stream: created new stream","id":"mtdumpgv"}
+{"time":"2025-07-23T01:05:33.6010385+05:30","level":"INFO","msg":"stream: started","id":"mtdumpgv"}
+{"time":"2025-07-23T01:05:33.6010385+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mtdumpgv"}
+{"time":"2025-07-23T01:05:33.6010385+05:30","level":"INFO","msg":"handler: started","stream_id":"mtdumpgv"}
+{"time":"2025-07-23T01:05:33.6010385+05:30","level":"INFO","msg":"sender: started","stream_id":"mtdumpgv"}
+{"time":"2025-07-23T01:14:24.8569064+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\images\\charts\\t-sne_visualization_10_55ef6519a423022e826d.png","runtime_seconds":0.5193056,"progress":"32.0KB/78.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5193056,"progress":"176.0KB/1.7MB"},{"desc":"uploading history steps 6-10, summary","runtime_seconds":0.4602978},{"desc":"uploading config.yaml","runtime_seconds":0.0360351}],"total_operations":4}}
+{"time":"2025-07-23T01:14:33.5209512+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T01:14:34.6102844+05:30","level":"INFO","msg":"stream: closing","id":"mtdumpgv"}
+{"time":"2025-07-23T01:14:34.6102844+05:30","level":"INFO","msg":"sender: closed","stream_id":"mtdumpgv"}
+{"time":"2025-07-23T01:14:34.6106144+05:30","level":"INFO","msg":"handler: closed","stream_id":"mtdumpgv"}
+{"time":"2025-07-23T01:14:34.6106144+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mtdumpgv"}
+{"time":"2025-07-23T01:14:34.6106144+05:30","level":"INFO","msg":"stream: closed","id":"mtdumpgv"}

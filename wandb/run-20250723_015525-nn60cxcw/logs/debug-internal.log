@@ -1,0 +1,14 @@
+{"time":"2025-07-23T01:55:35.8466806+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T01:55:36.7057419+05:30","level":"INFO","msg":"stream: created new stream","id":"nn60cxcw"}
+{"time":"2025-07-23T01:55:36.7057419+05:30","level":"INFO","msg":"stream: started","id":"nn60cxcw"}
+{"time":"2025-07-23T01:55:36.7057419+05:30","level":"INFO","msg":"handler: started","stream_id":"nn60cxcw"}
+{"time":"2025-07-23T01:55:36.7057419+05:30","level":"INFO","msg":"sender: started","stream_id":"nn60cxcw"}
+{"time":"2025-07-23T01:55:36.7057419+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nn60cxcw"}
+{"time":"2025-07-23T01:56:19.4431661+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/eshaan-rithesh2023-vit-chennai/cnn-hybrid-transformer/nn60cxcw/file_stream\": read tcp 192.168.93.31:55358->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-07-23T01:57:52.5310363+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nn60cxcw-tablesclassification_metrics-6b82bf0b50996d1790a4358ef0761857","runtime_seconds":2.1049657,"subtasks":[{"desc":"tables/classification_metrics.table.json","runtime_seconds":0.3038074,"progress":"1.1KB/1.1KB"}]},{"desc":"uploading media\\images\\charts\\confusion_matrix_6_638e4e9fda850ee810a5.png","runtime_seconds":1.5751921,"progress":"35.5KB/35.5KB"},{"desc":"uploading media\\images\\charts\\roc_curve_7_61f0099c8b96cd2409b2.png","runtime_seconds":1.4282286,"progress":"36.2KB/36.2KB"},{"desc":"uploading media\\images\\charts\\t-sne_visualization_8_83987c8f1aeb84480db6.png","runtime_seconds":0.6613941,"progress":"76.6KB/76.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3038074,"progress":"321.0KB/321.0KB"},{"desc":"uploading output.log","runtime_seconds":0.3038074},{"desc":"uploading config.yaml","runtime_seconds":0.2715143,"progress":"2.4KB/2.4KB"}],"total_operations":7}}
+{"time":"2025-07-23T01:57:56.7492972+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T01:58:08.3921817+05:30","level":"INFO","msg":"stream: closing","id":"nn60cxcw"}
+{"time":"2025-07-23T01:58:08.3921817+05:30","level":"INFO","msg":"handler: closed","stream_id":"nn60cxcw"}
+{"time":"2025-07-23T01:58:08.3921817+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nn60cxcw"}
+{"time":"2025-07-23T01:58:08.3921817+05:30","level":"INFO","msg":"sender: closed","stream_id":"nn60cxcw"}
+{"time":"2025-07-23T01:58:08.3921817+05:30","level":"INFO","msg":"stream: closed","id":"nn60cxcw"}
