@@ -1,12 +1,12 @@
 
 
-# 🐐 THEGOAT: Plant Leaf Disease Classifier using CNN + Transformers
+Plant Leaf Disease Classifier using CNN + Transformers
 
-This repository contains a research-grade implementation of a **Hybrid CNN + Transformer** model for classifying diseases in bell pepper leaves. 
+This repository contains an implementation of a **Hybrid CNN + Transformer** model for classifying diseases in bell pepper leaves. 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 THEGOAT.ipynb        # Main Jupyter Notebook
@@ -17,15 +17,15 @@ app.py               # WebApp to test
 
 ---
 
-## ⚙️ Features
+##  Features
 
-* 📊 Classification of multiple leaf diseases
-* 📈 Visualization of training curves and attention maps
-* ✅ Validation accuracy monitoring with best model checkpointing
-* ✨ WebApp using Gradio to test images
+*  Classification of multiple leaf diseases
+*  Visualization of training curves and attention maps
+*  Validation accuracy monitoring with best model checkpointing
+*  WebApp using Gradio to test images
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -38,7 +38,7 @@ cd <name>
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate 
 ```
 
 ### 3. Install Dependencies
@@ -51,7 +51,7 @@ or go through it manually
 
 ---
 
-## 📦 Dataset Setup
+## Dataset Setup
 
 1. **Download the Dataset**:
 
@@ -71,7 +71,7 @@ data/
 
 ---
 
-## 🧪 Running the Notebook
+##  Running the Notebook
 
 Open Jupyter Notebook or Jupyter Lab:
 
@@ -92,57 +92,39 @@ Tweak the parameters to your liking.
 
 ---
 
-## 🕸️ App
+##  App
 
 Once youre done training, you can run the app.py script to get a webapp on localhost:7860
 
 ---
 
-## 🖥️ GPU Support
+##  GPU Support
 
 If you have a CUDA-compatible GPU, PyTorch will automatically use it.
 
-You can check the device in the notebook:
 
 ```python
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 ```
 
-If you're seeing `cpu`, ensure that:
-
-* You have installed the correct version of `torch` with CUDA
-* NVIDIA drivers + CUDA toolkit are installed properly
 
 ---
 
-## 📊 Outputs & Results
+##  Outputs & Results
 
 The notebook will:
 
 * Print training and validation losses/accuracies
 * Plot training curves
 * Save the best model (if implemented)
-* (COMING SOON) Visualize predictions or attention maps
-
 ---
 
-## 📌 Notes
+##  Notes
 
 * You can tweak the learning rate, optimizer, batch size, or number of epochs for experiments.
-* For serious training use a local machine with a dedicated NVIDIA GPU.
 
 ---
-
-## 📜 License
-
-Who cares bro just use it
-
----
-
-## 🙏 Acknowledgements
-
- NO ONE AHAHAHAHAH (jk, citations coming soon)
 
 <!-- * [KAN (Kernelized Attention Network)](https://arxiv.org/abs/2403.04295)
 * [PlantVillage Dataset](https://www.kaggle.com/emmarex/plantdisease)
